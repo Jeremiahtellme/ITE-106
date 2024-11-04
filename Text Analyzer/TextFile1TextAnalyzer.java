@@ -11,7 +11,7 @@ public class TextFile1TextAnalyzer
 		}
 	} 
 	public static void analyzeFile() throws IOException {
-		File file = new File("hiPogi.txt"); 
+		File file = new File("Papi.txt"); 
 		
 		String line;
 		int wordCount = 0;
@@ -37,7 +37,7 @@ public class TextFile1TextAnalyzer
 				}
 			}
 		}
-		File newFile = new File("hiPogiUppercase.txt");
+		File newFile = new File("toUppercase.txt");
 		BufferedWriter writer = new BufferedWriter(new FileWriter(newFile));
 		reader = new BufferedReader(new FileReader(file)); 
 		while ((line = reader.readLine()) != null) {
