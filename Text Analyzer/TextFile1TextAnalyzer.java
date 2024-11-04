@@ -53,6 +53,5 @@ public class TextFile1TextAnalyzer
 		System.out.printf("%-15s\t:  %d\n", "Word Count", wordCount);
 		System.out.printf("%-15s\t:  %d\n", "Sentence Count", sentenceCount);
 		System.out.printf("%-15s\t:  %s\n", "Longest Word", longestWord != null ? longestWord : "N/A");
-		
 	}
 }
