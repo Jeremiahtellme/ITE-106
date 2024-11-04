@@ -32,7 +32,7 @@ public class TextFile1TextAnalyzer
 				    longestWord = trimmedWord;
 				}
 				char charSaDulo = word.charAt(word.length() - 1);
-				if (charSaDulo == '.' || charSaDulo == '?' || charSaDulo == '!') {
+				if (charEnd == '.' || charEnd == '?' || charEnd == '!') {
 					sentenceCount++;
 				}
 			}
