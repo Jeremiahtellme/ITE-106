@@ -11,7 +11,7 @@ public class TextFile1TextAnalyzer
 		}
 	} 
 	public static void analyzeFile() throws IOException {
-		File file = new File("Papi.txt"); 
+		File file = new File("Maya.txt"); 
 		
 		String line;
 		int wordCount = 0;
@@ -37,7 +37,7 @@ public class TextFile1TextAnalyzer
 				}
 			}
 		}
-		File newFile = new File("toUppercase.txt");
+		File newFile = new File("MayatoUppercase.txt");
 		BufferedWriter writer = new BufferedWriter(new FileWriter(newFile));
 		reader = new BufferedReader(new FileReader(file)); 
 		while ((line = reader.readLine()) != null) {
