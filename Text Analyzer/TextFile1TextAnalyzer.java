@@ -31,7 +31,7 @@ public class TextFile1TextAnalyzer
 				    longestWordLength = wordLength;
 				    longestWord = trimmedWord;
 				}
-				char charSaDulo = word.charAt(word.length() - 1);
+				char charEnd = word.charAt(word.length() - 1);
 				if (charEnd == '.' || charEnd == '?' || charEnd == '!') {
 					sentenceCount++;
 				}
