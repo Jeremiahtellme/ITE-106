@@ -19,10 +19,10 @@ public class PayrollSystem extends JFrame {
         setLayout(new BorderLayout());
 
         // Set up colors
-        Color primaryColor = new Color(52, 73, 94); // Dark gray-blue
-        Color secondaryColor = new Color(236, 240, 241); // Light gray
-        Color accentColor = new Color(41, 128, 185); // Soft blue
-        Color buttonColor = new Color(39, 174, 96); // Green
+        Color primaryColor = new Color(0, 128, 128); // Modern teal
+        Color secondaryColor = new Color(245, 245, 220); // Warm beige
+        Color accentColor = new Color(255, 165, 0); // Bright orange
+        Color buttonColor = new Color(154, 205, 50); // Soft yellow-green
 
         // Input Panel
         JPanel inputPanel = new JPanel(new GridLayout(5, 2));
